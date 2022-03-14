@@ -17,5 +17,25 @@ a {
 }
 
 a:hover {
-  color: var(--blue)
+  color: #124893;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+hr {
+  margin: 1rem 0;
+  height: 1px;
+  background-color: #EEE;
+  border: none;
+  opacity: 1;
+}
+
+.container {
+  max-width: 1120px;
+  padding: 0 1rem;
+  margin: 0 auto;
 }
